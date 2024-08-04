@@ -2,7 +2,7 @@
 title: Poole
 tagline: The Jekyll Butler
 url: https://getpoole.com
-paginate: 3
+paginate: 1
 baseurl: ""
 permalink: pretty
 
@@ -35,3 +35,9 @@ author:
 
 # Custom vars
 version: 3.0.0
+
+# For github pages
+
+website: https://akmolteni.github.io
+basewebsite: /gp
+
