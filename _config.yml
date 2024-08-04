@@ -39,5 +39,5 @@ version: 3.0.0
 # For github pages
 
 website: https://akmolteni.github.io
-basewebsite: /gp
+baseurl: /gp
 
