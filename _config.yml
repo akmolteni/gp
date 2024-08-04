@@ -1,7 +1,7 @@
 # Setup
 title: Poole Tweak
-tagline: Tweaking the Jekyll Butler
-url: https://getpoole.com
+tagline: Tweaking the Template
+url: https://akmolteni.github.io/gp
 paginate: 1
 baseurl: ""
 permalink: pretty
@@ -28,10 +28,10 @@ sass:
 # ga_analytics: UA-000000-0
 
 # Specify the author for blog posts
-# author:
-#  name: John Doe
-#  url: https://www.example.com
-#  email: jd@example.com
+author:
+    name: AK Molteni
+    url: https://github.com/akmolteni/gp
+    email: example@example.com
 
 # Custom vars
 version: 2024.08.04
