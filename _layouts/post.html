@@ -27,7 +27,7 @@ layout: default
 
 <div class="pagination">
 	{% if page.previous.url %}
-        <a class="pagination-item older" href="{{page.previous.url | relative_url }}">Previous</a>
+        <a class="pagination-item older" href="{{page.previous.url | prepend: relative_url }}">Previous</a>
 	{% else %}
 		<span class="pagination-item older">Previous</span>
     {% endif %}
