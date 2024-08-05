@@ -19,6 +19,7 @@ exclude:
   - .git
   - .jekyll-cache
   - LICENSE.md
+  - README.md
   
 sass:
   sass_dir: _sass
