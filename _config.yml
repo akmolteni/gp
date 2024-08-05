@@ -17,6 +17,7 @@ exclude:
   - .editorconfig
   - .git
   - .jekyll-cache
+  - LICENSE.md
   
 sass:
   sass_dir: _sass
