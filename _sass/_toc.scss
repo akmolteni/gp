@@ -1,4 +1,4 @@
-// Table of Contents
+// Table of Contents widget
 
 #markdown-toc {
   padding: var(--spacer-2) var(--spacer-3);
@@ -16,7 +16,14 @@
 }
 
 
+// Table of Contents Page
+
 .toc {
+margin-bottom: 4em;
+
+  li + li {
+    margin-top: .25rem;
+  }
 }
 
 .toc ul {
