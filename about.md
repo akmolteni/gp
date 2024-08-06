@@ -1,22 +1,9 @@
 ---
-layout: toc
-title: About + Archives
+layout: page
+title: About
 ---
 
 Introducing the GP Project, a Jekyll template made for people who update infrequently and prefer to focus on a single topic. This simple design ensures your audience can easily grasp your insights without distractions. Tailored for simplicity, it allows you to share your thoughts, making each visit to your site a delightful experience. Embrace a streamlined approach to sharing an idea.
 
 ## Colophon
 The site is based on [Poole Theme by @mdo](https://github.com/poole) for [Jekyll](https://jekyllrb.com). Developed on GitHub to work with [GitHub Pages](https://pages.github.com). Coded with the GitHub web interface.
-
-## Archive
-Browse all posts by month and year.
-
-{% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
-{% for yearMonth in postsByYearMonth %}
-  <p class="yearmonth">{{ yearMonth.name }}</p>
-  <ul>
-    {% for post in yearMonth.items %}
-      <li><span>{{ post.date | date: "%-d"}}</span><a href="{{ post.url | relative_url }}">{{ post.title }}</a></li>
-    {% endfor %}
-  </ul>
-{% endfor %}
