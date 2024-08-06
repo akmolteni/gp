@@ -35,13 +35,12 @@
 	white-space:nowrap;
 	overflow:hidden;
 	text-overflow:ellipsis;
-	color:red;
 }
 
 .toc li span {
-	width:3rem;
+	width:2rem;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
 	text-align:right;
-	color:green;
+	margin-right:1rem;
 }
