@@ -3,7 +3,7 @@ layout: toc
 title: Archive
 ---
 
-Introducing the GP Project, a Jekyll template made for people who update infrequently and prefer to focus on a single topic. This simple design ensures your audience can easily grasp your insights without distractions. Tailored for simplicity, it allows you to share your thoughts, making each visit to your site a delightful experience. Embrace a streamlined approach to sharing an idea.
+# Archive
 
 Browse all posts by month and year.
 
