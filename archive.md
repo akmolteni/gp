@@ -3,8 +3,6 @@ layout: toc
 title: Archive
 ---
 
-# Archive
-
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vel quam aliquam, tincidunt mi ut, luctus arcu. Phasellus eget odio eros. Curabitur justo urna, egestas quis eros non, feugiat porta diam. Aenean felis ex, placerat ut augue eget, efficitur maximus elit. Nulla ut massa ligula. Suspendisse lacus ante, feugiat id feugiat quis, egestas et nibh. Cras non risus pretium, pellentesque sem et, vulputate nibh. Mauris volutpat fringilla nisi, at gravida libero egestas vitae.
 
 Browse all posts by month and year.
