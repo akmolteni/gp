@@ -14,3 +14,31 @@
     font-weight: 500;
   }
 }
+
+
+.toc {
+}
+
+.toc ul
+	list-style:none;
+	padding-left:0;
+}
+
+.toc li {
+	align-items:center;
+	display:flex;
+	justify-content:space-between;
+	margin-bottom: .25rem;
+}
+
+.toc li a {
+	white-space:nowrap;
+	overflow:hidden;
+	text-overflow:ellipsis;
+}
+
+.toc li span, {
+	width:3rem;
+	white-space: nowrap;
+	font-variant-numeric: tabular-nums;
+}
