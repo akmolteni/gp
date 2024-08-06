@@ -19,7 +19,7 @@ title: Home
   {% endfor %}
 </div>
 
-<h2>All Posts</h2>
+<hr />
 <p>Browse all posts by month and year.</p>
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
