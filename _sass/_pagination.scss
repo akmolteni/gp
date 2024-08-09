@@ -4,10 +4,14 @@
 // there are no more previous or next posts to show.
 
 .pagination {
-  display: flex;
-  margin: 0 -1.5rem var(--spacer);
+  /* display: flex; */
   color: var(--gray-500);
   text-align: center;
+
+  overflow: hidden; /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  margin-bottom: var(--spacer);
 }
 
 // Pagination items can be `span`s or `a`s
