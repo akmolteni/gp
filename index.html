@@ -2,9 +2,10 @@
 layout: toc
 title: Home
 ---
-<p>Introducing the GP Project ([https://github.com/akmolteni/gp]https://github.com/akmolteni/gp), a Jekyll template made for people who update infrequently
+<p>Introducing the GP Project, a Jekyll template made for people who update infrequently
   and prefer to focus on a single topic. Tailored for simplicity, it allows
   you to share your thoughts, making each visit to your site a delightful experience.</p>
+<p><a href="https://github.com/akmolteni/gp">https://github.com/akmolteni/gp</a></p>
 
 {% assign postsByYearMonth = site.posts | group_by_exp: "post", "post.date | date: '%B %Y'" %}
 {% for yearMonth in postsByYearMonth %}
