@@ -10,14 +10,14 @@ layout: default
 
 <div class="pagination">
 	{% if page.previous.url %}
-        <a class="pagination-item older" href="{{page.previous.url | relative_url }}">Previous</a>
+        <a class="pagination-item older" href="{{page.previous.url | relative_url }}">&laqup; Previous</a>
 	{% else %}
-		<span class="pagination-item older">Previous</span>
+		<span class="pagination-item older">&laqup; Previous</span>
     {% endif %}
     
     {% if page.next.url %}
-        <a class="pagination-item newer" href="{{page.next.url | relative_url }}">Next</a>
+        <a class="pagination-item newer" href="{{page.next.url | relative_url }}">Next &raqup;</a>
     {% else %}
-    	 <span class="pagination-item newer">Next</span>
+    	 <span class="pagination-item newer">Next &raqup;</span>
     {% endif %}
 </div>
