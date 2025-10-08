@@ -19,7 +19,7 @@
 // Table of Contents Page
 
 .toc {
-margin-bottom: 4em;
+margin: 4em 0;
 
   li + li {
     margin-top: .25rem;
@@ -29,14 +29,15 @@ margin-bottom: 4em;
 .toc ul {
 	list-style:none;
 	padding-left:0;
+	border-top:1px solid #eee;
 }
 
 .toc li {
 	align-items:center;
 	display:flex;
 	justify-content:start;
-	margin-bottom: .25rem;
-	padding-bottom: .25rem;
+	margin: .5rem 0;
+	padding: .5rem 0;
 	border-bottom: 1px solid #eee;
 }
 
