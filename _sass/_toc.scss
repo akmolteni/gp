@@ -36,6 +36,7 @@ margin-bottom: 4em;
 	display:flex;
 	justify-content:start;
 	margin-bottom: .25rem;
+	padding-bottom: .25rem;
 	border-bottom: 1px solid #eee;
 }
 
@@ -51,7 +52,7 @@ margin-bottom: 4em;
 	white-space: nowrap;
 	font-variant-numeric: tabular-nums;
 	text-align:right;
-	margin-right:1rem;
+	margin-left:1rem;
 }
 
 .toc .yearmonth {
